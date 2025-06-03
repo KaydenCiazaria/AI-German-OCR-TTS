@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { API_BASE_URL } from "../../config"; // Import from config
 import "./Home.css";
 
 function Home() {
@@ -10,8 +11,6 @@ function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
   const navigate = useNavigate();
-
-  const API_BASE_URL = "http://bcf1-34-125-25-242.ngrok-free.app";
 
   const handleUploadClick = () => {
     fileInputRef.current.click();
@@ -63,7 +62,7 @@ function Home() {
 
   return (
     <div className="home-container">
-      <header className="home-header">
+      <header className="header">
         <h1>AI German</h1>
       </header>
 

@@ -1,0 +1,136 @@
+/* Result.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black;
+  color: yellow;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.result-container {
+  padding: 2rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+.result-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.result-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.result-main {
+  display: flex;
+  justify-content: center;
+}
+
+.result-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.text-section h2,
+.text-input-section h3,
+.audio-player h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.extracted-text {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  white-space: pre-wrap;
+  font-family: monospace;
+  color: #444;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.text-input-section textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.generate-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+
+.generate-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #d9534f;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.audio-player {
+  margin-top: 1.5rem;
+  background-color: #eef2f7;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #0056b3;
+}
