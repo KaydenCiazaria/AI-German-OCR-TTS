@@ -16,4 +16,4 @@ The system utilizes an asynchronous distributed architecture to bypass local com
 
 1. **Client Payload Dispatch:** The React application intercepts user file drops and dispatches binary assets over HTTP using multipart formatting.
 2. **ngrok Edge Routing:** Requests hit a secure public ngrok edge endpoint, directly into a live Google Colab runtime environment.
-3. **Flask Microservice Processing:** A Flask server running inside the notebook captures the request, handles file stream buffering, coordinates the local Python OCR/TTS pipelines, and pipes the resulting audio payload back down the open network connection.
+3. **Flask Microservice Processing:** A Flask server running inside the notebook captures the request, handles file stream buffering, coordinates the local PaddleOCR pipelines, and pipes the resulting audio payload back down the open network connection.
