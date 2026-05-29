@@ -6,7 +6,7 @@
 ##  Systems Architecture
 *   **Backend Engine:** Flask (Python micro-framework hosted on Google Colab)
 *   **Network & Tunneling:** ngrok (Secure edge tunneling for local-to-cloud exposure)
-*   **Media Processing:** Python OCR (Tesseract / EasyOCR) & Text-to-Speech (TTS) libraries
+*   **Media Processing:** PaddleOCR & Text-to-Speech (TTS) libraries
 
 ---
 
