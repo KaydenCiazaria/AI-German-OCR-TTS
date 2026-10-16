@@ -21,7 +21,7 @@ The system utilizes an asynchronous distributed architecture to bypass local com
 2. **ngrok Edge Routing:** Requests hit a secure public ngrok edge endpoint, directly into a live Google Colab runtime environment.
 3. **Flask Microservice Processing:** A Flask server running inside the notebook captures the request, handles file stream buffering, coordinates the local PaddleOCR pipelines, and pipes the resulting audio payload back down the open network connection.
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 ### Prerequisites
 
@@ -33,13 +33,13 @@ The system utilizes an asynchronous distributed architecture to bypass local com
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/KaydenCiazaria/AI-German-OCR-TTS.git
 cd <your-repo>
 ```
 
 ### 2. Start the backend (Google Colab)
 
-1. Open the backend notebook (`<notebook-name>.ipynb`) in [Google Colab](https://colab.research.google.com/).
+1. Open the backend notebook (`GermanAI_BackEnd_API.ipynb.ipynb`) in [Google Colab](https://colab.research.google.com/).
 2. Follow the instructions inside the notebook to install dependencies and start the Flask server.
 3. Copy the public ngrok URL printed in the output. The frontend needs it to reach the backend.
 
