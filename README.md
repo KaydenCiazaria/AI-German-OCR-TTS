@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="427" height="240" alt="German-OCR-Demo-Gif" src="https://github.com/user-attachments/assets/52454615-0b7b-49e1-aa61-98596e504902" />
+</p>
 ## 🛠️ Tech Stack
 
 *   **Frontend Client:** React 18 (Functional Components, Hooks)
